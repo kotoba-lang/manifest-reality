@@ -9,7 +9,7 @@
    finding は文字列でなく data:
      {:check :west/stray-block :severity :error :subject <s> :detail {..}}"
   (:require [clojure.set :as set]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [manifest-reality.parse :as p]))
 
 (defn- finding [check severity subject detail]

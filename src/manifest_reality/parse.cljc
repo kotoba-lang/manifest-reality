@@ -7,7 +7,7 @@
 
    `projects:` セクションの外に project 形のブロックが混入していても
    拾えるようにしてある — それ自体が検査対象だから (structure/stray)。"
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def ^:private block-start #"^    - name: (\S+)\s*$")
 

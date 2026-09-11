@@ -71,8 +71,8 @@ cadence を分けられる**ようにするため — 前者は毎 tick、後者
 ## テスト
 
 ```bash
-nbb --classpath src:test run_tests.cljk   # 10 tests / 23 assertions
-clojure -M:test                            # JVM 側
+kbb --backend sci --classpath src:test run_tests.cljk   # 10 tests / 23 assertions
+kbb -M:test                            # JVM 側
 ```
 
 ## ライセンス

@@ -1,5 +1,5 @@
 (ns manifest-reality.checks-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [manifest-reality.parse :as p]
             [manifest-reality.checks :as c]))
 
